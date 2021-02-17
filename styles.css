@@ -1,0 +1,136 @@
+body{
+  margin:0;
+  /*our browser contain default setings pf margins therefor we wre setting there margins ,paddings etc according to our needs.*/
+text-align: center;
+/*textalign will center everything to center exept for those who cantains width tag.for with we need to write
+margin:top right left bottom;*/
+font-family: 'Merriweather'serif;
+
+}
+h1{
+  color:#493323;
+  font-size:3.625rem;
+
+  margin-top:0;
+  font-family: 'sacramento',cursive;
+}
+h2{
+  color:#493323;
+  font-size:2.5rem;/*1rem=16px we should use rem instead od px or em because whwn are doing zooming
+  them rem will automatically adjust itsef*/
+  font-family: 'Montserrat',sans-serif;
+}
+h3{
+  color:#493323;
+    font-family: 'Montserrat',sans-serif;
+}
+hr{
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width:4%;
+  margin:100px auto;
+
+}
+a{
+  color:#11999e;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color:#eaf6f6;
+}
+.copyright{
+  color:#eaf6f6;
+  font-size: 0.75rem;
+
+}
+.cont-message{
+
+  width:40%;
+  margin:40px auto;
+}
+.bottom-container{
+  padding:50px 0 20px;
+
+}
+.prog-img{
+  width:25%;
+  float: left;
+  margin-right:30px;
+}
+.crick-img{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+  height: 150px;
+}
+
+div{
+  background-color:#51c2d5;}
+  /*we chosen background color code using colorhunt.co*/
+  .skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height: 2;
+  }
+
+.top{
+  background-color: #51c2d5;
+  position: relative;
+  padding-top:200px;
+}
+.middle{
+  background-color: red;
+  height:100px;
+  width:100px;
+}
+.bottom{
+  background-color: blue;
+  height:100px;
+  width:100px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px
+
+  /*in posion it follows absulute and reltive positioning.in absolute it comes out of html flow and follow its parents position according
+  to that it will adjust itself.like in bottom-cloud its parent is ".top".ai relative positioning it follows as usual spacin.*/
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:200px
+}
+.btn{
+  /*we got this codding for contact me using css button creator website*/
+
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather'serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
